@@ -1,0 +1,240 @@
+* {
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: white;
+}
+
+.tudo {
+    ;
+}
+
+/*header*/
+
+.liga {
+    margin-left: 50px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.heads {
+font-family: 'calibri';
+font-size: 20px;
+color: white;
+background-color: #162E58;
+height: 120px;
+width: 1370.5px;
+margin-left: -5px;
+}
+
+#partida {
+color: white;
+position: absolute;
+margin-top: 60px;
+margin-left: 290px;
+}
+
+#notice {
+color: white;
+position: absolute;
+margin-top: 60px;
+margin-left: 430px;
+}
+
+#classi {
+color: white;
+position: absolute;
+margin-top: 60px;
+margin-left: 580px;
+}
+
+#stats {
+color: white;
+position: absolute;
+margin-top: 60px;
+margin-left: 780px;
+}
+
+#jogadores {
+color: white;
+position: absolute;
+margin-top: 60px;
+margin-left: 950px;
+}
+
+/* header*/
+
+/*cr7*/
+.tudocr7 {
+        float: left;
+        margin: 5px 0px 0px 275px;
+        padding-bottom: 10px;
+        background-color: #ffffff;
+        border: 1px solid #dbdbdb;
+        border-radius: 10px;
+        width: 100px;
+        }
+
+.fotocr {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.nomecr {
+    margin-left: 12px;
+    font-size: 14px;
+}
+.infocr {
+    color: #878787;
+    padding-top: 5px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.infocr2 {
+    color: #878787;
+    padding-top: 8px;
+    margin-left: 25px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.juve {
+    width: 15px;
+    float: left;
+    padding-top: 8px;
+    padding-left: 7px;
+}
+
+/*cr7 fim*/
+/*messi*/ 
+.tudomessi {
+    float: left;
+    padding-bottom: 10px;
+    margin: 5px 0px 0px 12px ;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.fotomessi {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.nomemessi {
+    margin-left: 7px;
+    font-size: 14px;
+}
+.barca {
+    width: 15px;
+    float: left;
+    padding-top: 27px;
+    padding-left: 7px;
+}
+
+.infomessi {
+    color: #878787;
+    padding-top: 5px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.infobarca2 {
+    color: #878787;
+    margin-left: 25px;
+    padding-top: 27px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+/*fim messi*/
+/*neymar*/
+.tudoney {
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin: 5px 0px 0px 12px;
+    padding-bottom: 10px;
+}
+
+.nomeneymar {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.fotoneymar {
+    width: 100px;
+    border-radius: 10px;
+}
+.psg {
+    float: left;
+    width: 15px;
+    padding-top: 25px;
+    padding-left: 7px;
+}
+
+.infoney {
+    color: #878787;
+    padding-top: 5px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.infoney2 {
+    margin-left: 25px;
+    color: #878787;
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+/*fim neymar*/
+/*haland*/
+
+.tudohaland {
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin: 5px 0px 0px 7px;
+    padding-bottom: 10px;
+    width: 100px;
+}
+
+.nomehaland {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.dort {
+    float: left; 
+    width: 15px;
+    padding-top: 8px;
+    padding-left: 7px;
+    
+}
+
+.halfoto {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.infohaland {
+    color: #878787;
+    padding-top: 5px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.infohaland2 {
+    color: #878787;
+    margin-left: 25px;
+    padding-top: 8px;
+    line-height: 16px;
+    font-size: 14px;
+}

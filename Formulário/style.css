@@ -1,0 +1,111 @@
+body {
+    min-width: 1200px;
+}
+
+.input-padrao {
+	margin:  2px 0;
+	padding: 0px 40px;
+	width: 100px;
+}
+
+h1 {
+    margin-left: 300px;
+}
+
+fieldset {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 300px;
+    border-radius: 10px;
+    border-color: ghostwhite;
+    background-color: white;
+}
+
+label {
+    margin-right: 1%;
+}
+
+.info-nome input {
+    margin-right: 70px;
+}
+
+#nome {
+    text-align: left;
+}
+
+#dia {
+    width: 125px;
+    margin-left: 5px;
+    margin-top: none;
+       -moz-appearance: textfield;  
+}
+
+#rg{
+    margin-left: 7px;
+}
+
+/*fieldset 2*/
+.imagem {
+    width: %;
+}
+#rua {
+    margin-left: 33px
+}
+
+#bairro {
+    margin-left: 11px
+}
+
+.estado {
+    padding: 6px 0;
+
+}
+
+.estado select {
+    margin-left: 9px;
+}
+
+#cidade {
+    margin-left: 6px
+}
+
+#cep {
+    margin-left: 22px
+}
+
+/*fieldset 3*/
+.info-telefone select{
+    margin-right: 60px;
+}
+#imagem {
+    margin-left: 12px;
+    padding: 3px 0;
+}
+#email {
+    margin-left: 85px;
+}
+
+#login {
+  
+    margin-left: 13px
+}
+
+#senha {
+
+    margin-left: 82px
+}
+
+#senha-repeat {
+ 
+}
+
+#button-send {
+    margin-left: 890px;
+    margin-top: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

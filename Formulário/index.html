@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário HTML</h1>
+    </header>
+    <form action="http://vinicius.pro.br/idw/receiveForm.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+                <div class="info-nome">
+                    <label for="nome"> Nome </label>
+                    <input type="text" name="nome" id="nome" class="input-padrao" placeholder="Nome" required>  
+        
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" class="input-padrao" placeholder="Sobrenome" required>
+                </div>
+                
+                <div>
+                    <label for="data">Nascimento</label>
+                    <input type="date"  name="dia" class="data" class="input-padrao" required>
+                </div>
+
+                <div>
+                    <label for="rg">RG</label>
+                    <input type="number" name="rg" id="rg" class="input-padrao" placeholder="Informe seu rg" required>
+                </div>    
+
+                <div>
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="rg" id="cpf" class="input-padrao" placeholder="Informe seu CPF" pattern="[0-9]{8}" required>
+                </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados de Endereço</legend>
+
+                <div>
+                    <labe for="rua">Rua</label>
+                    <input type="text" name="house" id="rua" class="input-padrao" placeholder="Endereço" required>
+                </div>
+
+                <div>
+
+                    <label for="numero">Número</label>
+                    <input type="number" name="numero" id="numero" class="input-padrao" placeholder="Número da casa" required pattern="0-9"></br>
+                </div>
+
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="Bairro"  id="bairro" class="input-padrao" placeholder="Seu Bairro" required></br>
+                </div>
+
+                <div class="estado">
+                    <label for="estado">Estado</label>
+                    <select>
+                    <option>RS</option>
+                    <option>SC</option>
+                    <option>PR</option>
+                </select>
+                </div>
+
+                
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade"  id="cidade" class="input-padrao" placeholder="Informe a cidade" required>
+                </div>
+           
+                
+                <div>
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep" class="input-padrao" placeholder="000000-000" required></br>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados de Login</legend>
+            
+                <div class="info-telefone">
+                    <label>DDD</label>
+                    <select>
+                        <option>51</option>
+                        <option>25</option>
+                        <option>10</option>
+                    </select>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="cep" id="telefone" class="input-padrao" placeholder="xxxxx-xxxx" required></br>
+                </div>
+            
+            
+                <div>
+                     <label for="email">Email</label>
+                     <input type="email" name="login" id="email" class="input-padrao" placeholder="Seuemail@exemplo" required>
+                </div>
+            
+                <div>
+                     <label for="imagem">Imagem de perfil</label>
+                     <input type="file"  id="imagem" name="photo-pergil" required>
+                </div>    
+                
+                <div>
+                    <label for="login">Login de usuário</label>
+                <input type="text" name="login-user"  id="login" class="input-padrao" placeholder="login" required>
+                </div>
+
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="user-password" id="senha" class="input-padrao" placeholder="*****" required>
+                </div>
+
+                <div>
+                    <label for="senha-repeat">Confirme a sennha</label>
+                    <input type="password" name="user-password-confirn" class="input-padrao" class="senha-repeat" placeholder="****" required>
+                </div>
+        </fieldset>
+
+
+        <input type="submit" value="Enviar" id="button-send">
+        <input type="reset" value="Limpar" id="limpar"> 
+</form>
+</body>
+<footer></footer>
+</html>

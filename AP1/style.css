@@ -1,0 +1,156 @@
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 40px
+}
+
+.logo img {
+    max-height: 20%;
+    max-width: 30%;
+}
+
+nav{
+    text-align: center;
+    padding: 2% 0;
+    font-weight: bold;
+    border-bottom: 2px solid black;    
+}
+
+nav h1 {
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 20px;
+}
+
+nav h1:nth-child(1) {
+    color: black;
+}
+
+.fonte {
+    font-family: 'Pacifico', cursive;
+}
+.noticia-inteira {
+    display: inline-block;
+    width: 43%;
+    margin: 0 0 0 60px;
+    border-bottom: 1px solid gray;
+}
+
+.noticia-inteira h1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #FF7D55
+}
+
+.noticia-inteira p{
+    font-size: 20px;
+    text-align: justify;
+    width: 50%;
+}
+
+section:nth-child(6) {
+    border-bottom: 1px solid gray;
+    padding-bottom: 3%;
+}
+
+.noticia {
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+}
+
+.imagem-escola {
+	padding: 2% 0;
+    width: 20%;
+    float: right;
+    max-height: 30%;
+    max-width: 60%;
+    margin-right: none;
+}
+
+.noticia-curta {
+    display:inline;
+    float: right;
+    width: 20%;
+    margin: 40px 35px 0 0;
+    border-bottom: 1px solid gray
+}
+
+.noticia-curta img {
+    width: 30%;
+}
+
+aside:nth-child(6) p{
+    margin-top: 10%;
+}
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+section a:hover{
+    color: darkorange;
+}
+
+section a:hover p{
+    font-size: 18px;
+}
+
+section a:active{
+    color: blue;
+}
+
+.noticia-curta h1,.noticia-em-linha  h1 {
+    color: #FF7D55;
+    font-weight: bold;
+}
+
+
+.noticiinha {
+    width: 50%;
+    text-align: justify;
+    float: left;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.noticia-em-linha {
+    float: left;
+    display: inline;
+    width: 25%;
+    margin: 5% 0 0 5%;
+    border-bottom: none;
+}
+
+.noticia-em-linha img {
+    width: 25%;
+    float: right
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+footer img {
+    width: 30%;
+}
+
+.copyright {
+    color:  #ffffff;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.botao-cor-especial {
+    background-color: red;
+    color: white;
+}

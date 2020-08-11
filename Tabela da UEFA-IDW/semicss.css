@@ -1,0 +1,233 @@
+body {
+    font-family: 'arial';
+    background-color: rgb(240, 240, 240);
+}
+
+p {
+    margin-left: 294px;
+}
+
+/*header*/
+
+#liga {
+    margin-left: -200px;
+}
+
+.heads {
+    font-family: 'calibri';
+    font-size: 20px;
+    color: white;
+    background-color: #162E58;
+    height: 120px;
+    padding-top: 10px;
+    width: 1350px;
+}
+
+#partida {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -5px;
+}
+
+#notice {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 125px;
+}
+
+#classi {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 280px;
+}
+
+#stats {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 480px;
+}
+
+#jogadores {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 640px;
+}
+
+/* header*/
+
+#total {
+    color: gray;
+    font-size: 12px;
+}
+
+.foto {
+    width: 30px;
+}
+
+
+.right_one {
+    margin-left: 670px;
+    margin-top: -151px;
+    width: 500%;
+ }
+
+ .right_one2 {
+    margin-left: 0px;
+    margin-top: -151px;
+    width: 500%;
+ }
+
+.left_one {
+     
+     margin: auto;
+     width: 50%;
+     margin-left: 230px;
+     margin-top: 25px;
+ }
+
+ .left_one2 {
+    
+   
+    width: 50%;
+    margin-left: -440px;
+    margin-top: 0px;
+ }
+
+ .borda_1{
+    border-bottom:1px solid #e6e6e6;
+    border-top:1px solid #e6e6e6;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;     
+    background-color: white;        
+    width: 500px;
+}
+
+.borda_2 {
+    border-bottom:1px solid #e6e6e6; 
+    border-top:1px solid #e6e6e6; 
+    border-left:1px solid #e6e6e6; 
+    border-right:1px solid#e6e6e6; 
+    background-color: white; 
+    width: 500px;
+}
+
+.linhareta {
+    border-left: 1px solid #e6e6e6;
+    position: absolute;
+    left: 50%;
+    margin-left: -110px;
+    padding-top: 10%;
+}
+
+.linhareta_2 {
+    border-left: 1px solid #e6e6e6; 
+    line-height: -60px;
+    position: absolute;
+    left: 79%;
+    margin-left: -110px;
+    padding-top: 10%;
+}
+
+tr {
+    height: 47px;
+}
+
+/* fim e a data de jogo */
+.center {
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 47%;
+}
+
+.center1 {
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 76%;
+    
+}
+
+.center12 {
+    text-align: center;
+    position: absolute;
+    left: 76.5%;
+    top: 71%;
+}
+
+.center123{
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 71%;
+}
+
+#final_ {
+   position: absolute;
+    color: gray;
+    top: 50%;
+    left: 43.8%;
+}
+
+.final_1 {
+    position: absolute;
+    color: gray;
+    top: 51%;
+    left: 75%
+}
+
+.final_12 {
+    position: absolute;
+    color: gray;
+    top: 74%;
+    left: 75%;
+}
+
+.final_123 {
+    position: absolute;
+    color: gray;
+    top: 74%;
+    left: 43.5%;
+}
+
+/*data e fim de jogo*/
+
+#name {
+    padding-left: 10px;
+}
+
+#number {
+   padding-left: 100px;
+}
+
+#number_lost {
+    padding-left: 100px;
+    color: gray;
+}
+
+#number_lost2 {
+    padding-left: 114px;
+    color: gray;
+}
+
+#number1 {
+    padding-left: 140px;
+}
+
+#number2 {
+    padding-left: 70px;
+}
+ #arrow {
+     font-size: 10px;
+     text-align: center
+}
+
+#lost {
+    padding-left: 10px;
+    color: gray;
+}

@@ -1,0 +1,122 @@
+body {
+    font-family: calibri;
+    background-color: rgb(240, 240, 240);
+    width: 1380px;
+}
+
+/*header*/
+
+#liga {
+    margin-left: 91.9px;
+}
+
+.heads {
+    font-family: 'calibri';
+    font-size: 20px;
+    color: white;
+    background-color: #162E58;
+    height: 120px;
+    padding-top: 10px;
+    width: 1350px;
+}
+
+#partida {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 290px;
+}
+
+#notice {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 430px;
+}
+
+#classi {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 580px;
+}
+
+#stats {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 780px;
+}
+
+#jogadores {
+    color: white;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 950px;
+}
+
+/* header*/
+
+
+h {
+    font-size: 18px;
+}
+
+.foto {
+    height: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.group {
+    margin: auto;
+    width: 65%;
+    background-color: white;
+}
+
+#border_one {
+    border-left: 2px solid blue;
+    padding-left: 20px;
+}
+
+#border_two {
+    border-left: 2px solid orangered;
+    padding-left: 20px;
+}
+
+#border_t {
+    border-left: 2px solid white;
+    padding-left: 20px;
+}
+
+#titlec {
+    text-align: left;
+    color: grey;
+}
+
+.title2{
+    padding-top: 35px;
+}
+
+th {
+    color: grey;
+    border-bottom: 1px solid #f2f2f2;
+    padding-top: 14px;
+}
+
+.clubs {
+    width: 500px;
+    text-align: left;
+    font-size: 16px;
+}
+
+td {
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 15px;
+    text-align: center;    
+}
+    
+/* linha do ultimo time */
+#linelast {
+    border-bottom: none;
+}

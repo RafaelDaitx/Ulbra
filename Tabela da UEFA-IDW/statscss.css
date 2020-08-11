@@ -1,0 +1,139 @@
+body {
+    font-family: arial, sans-serif-medium, sans-serif;
+    background-color: rgb(240, 240, 240);
+    width: 1400px;
+}
+
+/*header*/
+
+#liga {
+    margin-left: 94.5px;
+}
+
+.heads {
+    font-family: 'calibri';
+    font-size: 20px;
+    color: white;
+    background-color: #162E58;
+    height: 120px;
+    padding-top: 10px;
+    width: 1338px;
+}
+
+#partida {
+    color: white;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 290px;
+}
+
+#notice {
+    color: white;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 417px;
+}
+
+#classi {
+    color: white;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 580px;
+}
+
+#stats {
+    color: white;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 780px;
+}
+
+#jogadores {
+    color: white;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 950px;
+}
+/
+/* header*/
+
+.margem {
+
+}
+
+.goal {
+    background: white;
+    margin: auto;
+    width: 58%;
+    padding-left: 38px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+
+h {
+    color: gray;
+}
+
+
+#player {
+    color: gray;
+}
+
+#player_2 {
+    color: gray;
+    text-align: right;
+}
+
+.clubs {
+    width: 500px;
+    text-align: left;
+    font-size: 16px;
+}
+.foto {
+    width: 12%;
+    padding-left: 8px;
+}
+
+th {
+    color: grey;
+    padding-top: 30px;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 15px;
+}
+
+#espacando {
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+#time_cor {
+    color: #a4a4a4;
+    padding-left: 10px;
+}
+
+.um {
+    line-height: 10%;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+.dois {
+    padding-left:30px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+#gol {
+    padding-left: 450px;
+}
+
+#name {
+    margin-bottom: -2000%;
+}

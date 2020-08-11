@@ -1,0 +1,79 @@
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: none;
+    margin-right: 2%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    margin: 0 3%;
+    text-align: center;
+;
+}
+
+.logo-produtora{
+    width: 80%;
+    height: 180px;
+    margin: 5% 0 2% 12%;
+}
+.conteudo-texto {
+    margin: 10% 12%;
+
+}
+
+.titulo {
+    color: white;
+    margin-left: 20%
+}
+
+.pergunta-jogo {
+    padding-left: 20%;
+    margin: 7% 0 0 0;
+}
+
+.tamanho {
+    width: 80%;
+    margin-left: 11%;
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    /* position cover adapta a imagem pro tamanho de tela, exemplo, em vez de esticar a imagem ele adapta pra tela, para ficar proporcinal e 
+    em alta qualidade*/
+    object-position: center;
+    height: 500px;
+}
+
+#total {
+    margin: 35px 0 75px 27%;
+
+}
+
+.mostrar_resultado {
+    margin: 0 0 0% 5%;
+}
+
+footer {
+    text-align: center;
+    background: url("images/bg.jpg");
+    padding: 60px 0;
+}   
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.imagem-footer {
+    width: 40px;
+    clear: both;
+}
