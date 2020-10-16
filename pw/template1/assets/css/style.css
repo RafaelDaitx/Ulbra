@@ -1,0 +1,22 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: darkgray;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+}
