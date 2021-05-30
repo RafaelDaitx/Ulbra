@@ -1,0 +1,2 @@
+rootProject.name = "cardiaco_v2"
+include ':app'
