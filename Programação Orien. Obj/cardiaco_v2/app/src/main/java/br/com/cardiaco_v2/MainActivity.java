@@ -33,10 +33,10 @@ public class MainActivity extends Activity {
 
                 public void onClick(View v) {
                     Toast.makeText(MainActivity.this, "Marcou", Toast.LENGTH_LONG).show();
-                   // Intent intent = new Intent(getApplicationContext(), Activity3.class); manda para a activity 3
-                   // Usuario usuario = new Usuario("cassio");
-                   // intent.putExtra("nome", "cassio");
-                  //  intent.putExtra("obejto", usuario);
+                    Intent intent = new Intent(getApplicationContext(), Activity3.class); manda para a activity 3
+                    Usuario usuario = new Usuario("cassio");
+                    intent.putExtra("nome", "cassio");
+                   intent.putExtra("obejto", usuario);
                     /*float np1 = Float.parseFloat(idade1_op.getText().toString()); p
                     pega o valor a idade1 e adtribui no np1
                     intent.putExtra("np1", np1);
